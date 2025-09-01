@@ -2,5 +2,7 @@
 import sys
 
 
-for arg in sys.argv[1:]:
-    print(arg)
+n = 1
+for i in range(len(sys.argv) - 1):
+    print(sys.argv[n])
+    n += 1
